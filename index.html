@@ -20,10 +20,10 @@
         <img src="imgs/logo.png" alt="" />
       </div>
       <ul class="header-list">
-        <li><a href="#">About me</a></li>
+        <li><a href="#About">About me</a></li>
         <li><a href="#">Skills</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">CONTACT ME</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Contact">CONTACT ME</a></li>
       </ul>
       <div class="hamberger">
         <span></span>
@@ -60,9 +60,9 @@
       </div>
     </div>
     <!-- Start About  -->
-    <div class="about-section">
+    <div class="about-section" id="About">
       <div class="about-header">
-        <button class="about-me">About Me</button>
+        <button class="about-me btn">About Me</button>
         <p class="header-para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
           molestiae rerum harum ducimus expedita mollitia cupiditate? Possimus
@@ -100,6 +100,131 @@
       </div>
     </div>
     <!-- End About  -->
+    <!-- Start portfolio  -->
+    <div class="portfolio" id="Portfolio">
+      <div class="port-button">
+        <button class="portfolio-btn btn">portfolio</button>
+      </div>
+
+      <ul class="portfolio-links">
+        <li><a href="#">ALL</a></li>
+        <li><a href="#">Coded</a></li>
+        <li><a href="#">Designed</a></li>
+      </ul>
+      <div class="portfolio-projects">
+        <div class="card">
+          <img src="imgs/Project.png" alt="" />
+          <div class="overlay">
+            <span>Coded, designed</span>
+            <h2>eatsome.</h2>
+            <p>Restaurant browsing in React.js (Using Yelp API)</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/Project (2).png" alt="" />
+          <div class="overlay">
+            <span>Coded, designed</span>
+            <h2>eatsome.</h2>
+            <p>Restaurant browsing in React.js (Using Yelp API)</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/Project (1).png" alt="" />
+          <div class="overlay">
+            <span>Coded, designed</span>
+            <h2>eatsome.</h2>
+            <p>Restaurant browsing in React.js (Using Yelp API)</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/Project (2).png" alt="" />
+          <div class="overlay">
+            <span>Coded, designed</span>
+            <h2>eatsome.</h2>
+            <p>Restaurant browsing in React.js (Using Yelp API)</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/Project (1).png" alt="" />
+          <div class="overlay">
+            <span>Coded, designed</span>
+            <h2>eatsome.</h2>
+            <p>Restaurant browsing in React.js (Using Yelp API)</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/Project.png" alt="" />
+          <div class="overlay">
+            <span>Coded, designed</span>
+            <h2>eatsome.</h2>
+            <p>Restaurant browsing in React.js (Using Yelp API)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End portfolio  -->
+    <!-- Start ContactUs  -->
+    <div class="contact" id="Contact">
+      <div class="contact-button">
+        <button class="contact-btn btn">contact</button>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, vel
+        ipsa sapiente magnam optio dicta ipsum ea. Est eaque vel architecto
+        natus commodi hic dicta, voluptate maiores pariatur, odit beatae.
+      </p>
+      <form>
+        <input
+          type="text"
+          placeholder="ENTER YOUR NAME"
+          name="Name"
+          id="name"
+        />
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="ENTER YOUR Email"
+        />
+        <input type="text" name="Phone" id="phone" placeholder="PHONE NUMBER" />
+        <textarea
+          name="Message"
+          id="message"
+          placeholder="YOUR MESSAGE"
+        ></textarea>
+        <button class="submit">SUBMIT</button>
+      </form>
+    </div>
+    <!-- End ContactUs  -->
+    <!-- start Footer  -->
+    <div class="footer" id="footer">
+      <div class="back-to-top">
+        <a href="#top">
+          <i class="fa-solid fa-angles-up"></i>
+          <span>BACK TO TOP</span>
+        </a>
+      </div>
+
+      <div class="social-links">
+        <a href="#" class="social-icon"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="#" class="social-icon"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="#" class="social-icon no-border"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#" class="social-icon"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+      </div>
+
+      <div class="copyright">
+        <p>@<strong>2020 Tomasz Gajda</strong> All Rights Reserved.</p>
+      </div>
+    </div>
+    <!-- End Footer  -->
   </body>
   <script src="script.js"></script>
 </html>
