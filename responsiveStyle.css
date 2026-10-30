@@ -46,4 +46,34 @@
   .header-list.active li a:hover {
     border-radius: 0;
   }
+  .footer {
+    padding: 40px 15px;
+    gap: 30px;
+  }
+
+  .back-to-top a {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    gap: 8px;
+  }
+
+  .social-links {
+    gap: 15px;
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .social-icon.no-border {
+    font-size: 37px;
+  }
+
+  .copyright p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+  }
 }
